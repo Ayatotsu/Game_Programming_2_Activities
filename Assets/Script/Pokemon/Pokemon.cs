@@ -9,7 +9,7 @@ public enum Name
 
 public enum Types
 { 
-    Bug, Dark, Dragon, Electric, Fighting, Fire, Flying, Ghost, Grass, Ground, Ice, Normal, Poison, Psychic, Rock, Steel, Water, Fairy
+    Bug, Dark, Dragon, Electric, Fighting, Fire, Flying, Ghost, Grass, Ground, Ice, Normal, Poison, Psychic, Rock, Steel, Water, Fairy, None
 }
 
 public enum Gender

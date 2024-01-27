@@ -10,8 +10,9 @@ public class Blastoise : PokemonData
     void Start()
     {
         stats = new Stats();
-        name = "Arbok";
-        types = Types.Poison;
+        name = "Blastoise";
+        types = Types.Water;
+        types2 = Types.None;
         gender = Gender.Male;
         stats.hp = 79;
         stats.atk = 83;

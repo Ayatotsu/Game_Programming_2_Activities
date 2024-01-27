@@ -10,6 +10,7 @@ public class Arbok : PokemonData
         stats = new Stats();
         name = "Arbok";
         types = Types.Poison;
+        types2 = Types.None;
         gender = Gender.Male;
         stats.hp = 60;
         stats.atk = 95;
