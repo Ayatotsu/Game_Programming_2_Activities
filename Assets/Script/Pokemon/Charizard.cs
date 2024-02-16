@@ -10,7 +10,7 @@ public class Charizard : PokemonData
     void Start()
     {
         stats = new Stats();
-        name = "Charizard";
+        pokemonName = "Charizard";
         types = Types.Fire;
         types2 = Types.Flying;
         gender = Gender.Male;
