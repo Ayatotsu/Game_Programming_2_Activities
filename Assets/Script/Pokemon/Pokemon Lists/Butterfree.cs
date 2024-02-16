@@ -8,7 +8,7 @@ public class Butterfree : PokemonData
     void Start()
     {
         stats = new Stats();
-        name = "Butterfree";
+        pokemonName = "Butterfree";
         types = Types.Bug;
         types2 = Types.Flying;
         gender = Gender.Male;

@@ -12,7 +12,7 @@ public class Blastoise : PokemonData
     void Start()
     {
         stats = new Stats();
-        name = "Blastoise";
+        pokemonName = "Blastoise";
         types = Types.Water;
         types2 = Types.None;
         gender = Gender.Male;
