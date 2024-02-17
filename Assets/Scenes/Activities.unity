@@ -404,7 +404,7 @@ GameObject:
   - component: {fileID: 112545336}
   - component: {fileID: 112545339}
   - component: {fileID: 112545338}
-  - component: {fileID: 112545337}
+  - component: {fileID: 112545340}
   m_Layer: 5
   m_Name: Blastoise
   m_TagString: Untagged
@@ -442,38 +442,6 @@ RectTransform:
   m_AnchoredPosition: {x: 406, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &112545337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 112545335}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36efa9be56996c7479d0cc4ec055bae8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemonName: 
-  types: 0
-  types2: 0
-  gender: 0
-  stats:
-    hp: 0
-    atk: 0
-    spatk: 0
-    def: 0
-    spdef: 0
-    speed: 0
-  pName: {fileID: 234064744}
-  pTypes: {fileID: 1929713637}
-  pGender: {fileID: 1617749019}
-  pHp: {fileID: 563868273}
-  pAtk: {fileID: 1062573556}
-  pSpAtk: {fileID: 1770448451}
-  pDef: {fileID: 1353315705}
-  pSpDef: {fileID: 714508489}
-  pSpeed: {fileID: 660487034}
 --- !u!114 &112545338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -512,6 +480,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 112545335}
   m_CullTransparentMesh: 1
+--- !u!114 &112545340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112545335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54451050f5dd77c4cb8346f2600203d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+  pName: {fileID: 234064744}
+  pTypes: {fileID: 1929713637}
+  pGender: {fileID: 1617749019}
+  pHp: {fileID: 563868273}
+  pAtk: {fileID: 1062573556}
+  pSpAtk: {fileID: 1770448451}
+  pDef: {fileID: 1353315705}
+  pSpDef: {fileID: 714508489}
+  pSpeed: {fileID: 660487034}
 --- !u!1 &234064742
 GameObject:
   m_ObjectHideFlags: 0
@@ -732,9 +732,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: OpenUi
+      - m_Target: {fileID: 501583899}
+        m_TargetAssemblyTypeName: Buttons2, Assembly-CSharp
+        m_MethodName: ShowUi
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -794,7 +794,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8095bec7eb98b9c4088131f1d4f7f357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  activeUI: {fileID: 501583893}
+  activeUI: {fileID: 112545335}
   inactiveUI: {fileID: 2009508910}
 --- !u!1 &563868271
 GameObject:
@@ -3089,7 +3089,7 @@ GameObject:
   - component: {fileID: 1360701245}
   - component: {fileID: 1360701244}
   - component: {fileID: 1360701243}
-  - component: {fileID: 1360701246}
+  - component: {fileID: 1360701247}
   m_Layer: 5
   m_Name: ArbokButton
   m_TagString: Untagged
@@ -3162,9 +3162,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1360701246}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: OpenUi
+      - m_Target: {fileID: 1360701247}
+        m_TargetAssemblyTypeName: Buttons2, Assembly-CSharp
+        m_MethodName: ShowUi
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3212,7 +3212,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1360701241}
   m_CullTransparentMesh: 1
---- !u!114 &1360701246
+--- !u!114 &1360701247
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3221,10 +3221,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1360701241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd46f28330e00024393822db50f20e5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 8095bec7eb98b9c4088131f1d4f7f357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentscene: {fileID: 2009508910}
+  activeUI: {fileID: 2009508910}
+  inactiveUI: {fileID: 112545335}
 --- !u!1 &1617749017
 GameObject:
   m_ObjectHideFlags: 0
@@ -3459,7 +3460,7 @@ RectTransform:
   - {fileID: 501583894}
   - {fileID: 112545336}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3532,7 +3533,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1770448449
 GameObject:
@@ -3804,142 +3805,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813337286}
   m_CullTransparentMesh: 1
---- !u!1 &1824032284
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1824032286}
-  - component: {fileID: 1824032285}
-  - component: {fileID: 1824032287}
-  - component: {fileID: 1824032288}
-  - component: {fileID: 1824032289}
-  m_Layer: 0
-  m_Name: Pokemon Lists
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1824032285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824032284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36efa9be56996c7479d0cc4ec055bae8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemonName: 
-  types: 4
-  types2: 0
-  gender: 0
-  stats:
-    hp: 0
-    atk: 0
-    spatk: 0
-    def: 0
-    spdef: 0
-    speed: 0
-  pName: {fileID: 1048551779}
-  pTypes: {fileID: 1048084979}
-  pGender: {fileID: 1890007788}
-  pHp: {fileID: 574900337}
-  pAtk: {fileID: 928569724}
-  pSpAtk: {fileID: 651424686}
-  pDef: {fileID: 1813337288}
-  pSpDef: {fileID: 1343671474}
-  pSpeed: {fileID: 29132930}
---- !u!4 &1824032286
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824032284}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1824032287
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824032284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54451050f5dd77c4cb8346f2600203d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemonName: 
-  types: 0
-  types2: 0
-  gender: 0
-  stats:
-    hp: 0
-    atk: 0
-    spatk: 0
-    def: 0
-    spdef: 0
-    speed: 0
---- !u!114 &1824032288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824032284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8fe9ca9854b0ac24bb519513887746db, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemonName: 
-  types: 0
-  types2: 0
-  gender: 0
-  stats:
-    hp: 0
-    atk: 0
-    spatk: 0
-    def: 0
-    spdef: 0
-    speed: 0
---- !u!114 &1824032289
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1824032284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e02b691ff4d9fe42958e60ecf0848c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemonName: 
-  types: 0
-  types2: 0
-  gender: 0
-  stats:
-    hp: 0
-    atk: 0
-    spatk: 0
-    def: 0
-    spdef: 0
-    speed: 0
 --- !u!1 &1890007786
 GameObject:
   m_ObjectHideFlags: 0
