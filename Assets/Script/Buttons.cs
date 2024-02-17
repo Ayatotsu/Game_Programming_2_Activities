@@ -1,27 +1,32 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Buttons : MonoBehaviour
 {
-    public GameObject currentscene;
-    
-    
-    // Start is called before the first frame update
-    void Start()
+    public PokemonData pokemonData;
+
+    public TextMeshProUGUI pTypes;
+    public TextMeshProUGUI pGender;
+    public TextMeshProUGUI pHp;
+    public TextMeshProUGUI pAtk;
+    public TextMeshProUGUI pSpAtk;
+    public TextMeshProUGUI pDef;
+    public TextMeshProUGUI pSpDef;
+    public TextMeshProUGUI pSpeed;
+    public void SetCharacterData(Stats stats)
     {
-        
+
+        pTypes.text = Types.Poison.ToString();
+        pGender.text = Gender.Male.ToString();
+        pHp.text = stats.hp.ToString();
+        pAtk.text = stats.atk.ToString();
+        pSpAtk.text = stats.spatk.ToString();
+        pDef.text = stats.def.ToString();
+
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    public void OpenUi()
-    {
-        currentscene.SetActive(true);
-        
-    }
+
 }
