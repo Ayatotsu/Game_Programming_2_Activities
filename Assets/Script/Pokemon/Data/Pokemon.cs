@@ -2,17 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Name
-{ 
-    Charizard, Venusaur, Blastoise, Butterfree, Arbok, Pikachu, Nidoqueen, Nidoking, Machamp, Hitmonchan
-}
+[System.Serializable]
+[CreateAssetMenu(fileName = "Pokemon", menuName = "ScriptableObjects/Pokemon")]
+public class Pokemon : ScriptableObject
+{
+    public string pName;
+    public int pLevel;
+    public int pHp;
+    public int atk;
+    public int spatk;
+    public int def;
+    public int spdef;
+    public int speed;
+    public Gender gender;
+    public Types types;
+    public Types types2;
 
-public enum Types
-{ 
-    Bug, Dark, Dragon, Electric, Fighting, Fire, Flying, Ghost, Grass, Ground, Ice, Normal, Poison, Psychic, Rock, Steel, Water, Fairy, None
-}
-
-public enum Gender
-{ 
-    Male, Female, None
+    public void Attack() 
+    {
+        Debug.Log($"{name} used Tackle!");
+    }
 }

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2be62a050ea9c44e92f7fd09577051e, type: 3}
+  m_Name: Arbok
+  m_EditorClassIdentifier: 
+  pName: Arbok
+  pLevel: 10
+  pHp: 100
+  atk: 90
+  spatk: 80
+  def: 80
+  spdef: 67
+  speed: 80
+  gender: 0
+  types: 12
+  types2: 18
