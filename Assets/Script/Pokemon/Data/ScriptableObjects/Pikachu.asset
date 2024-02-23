@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2be62a050ea9c44e92f7fd09577051e, type: 3}
   m_Name: Pikachu
   m_EditorClassIdentifier: 
-  pName: 
-  pLevel: 0
-  pHp: 0
-  atk: 0
-  spatk: 0
-  def: 0
-  spdef: 0
-  speed: 0
+  pName: Pikachu
+  pLevel: 10
+  pHp: 45
+  atk: 80
+  spatk: 75
+  def: 50
+  spdef: 60
+  speed: 120
   gender: 0
-  types: 0
-  types2: 0
+  types: 3
+  types2: 18

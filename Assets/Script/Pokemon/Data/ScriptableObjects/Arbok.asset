@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pName: Arbok
   pLevel: 10
-  pHp: 100
-  atk: 90
-  spatk: 80
-  def: 80
-  spdef: 67
+  pHp: 60
+  atk: 95
+  spatk: 65
+  def: 69
+  spdef: 79
   speed: 80
-  gender: 0
+  gender: 1
   types: 12
   types2: 18

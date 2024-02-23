@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2be62a050ea9c44e92f7fd09577051e, type: 3}
   m_Name: Venusaur
   m_EditorClassIdentifier: 
-  pName: 
-  pLevel: 0
-  pHp: 0
-  atk: 0
-  spatk: 0
-  def: 0
-  spdef: 0
-  speed: 0
+  pName: Venusaur
+  pLevel: 10
+  pHp: 80
+  atk: 82
+  spatk: 100
+  def: 83
+  spdef: 100
+  speed: 80
   gender: 0
-  types: 0
-  types2: 0
+  types: 8
+  types2: 12

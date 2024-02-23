@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pName: Blastoise
   pLevel: 10
-  pHp: 100
-  atk: 70
-  spatk: 80
+  pHp: 79
+  atk: 83
+  spatk: 85
   def: 100
-  spdef: 89
+  spdef: 105
   speed: 78
   gender: 0
   types: 16
