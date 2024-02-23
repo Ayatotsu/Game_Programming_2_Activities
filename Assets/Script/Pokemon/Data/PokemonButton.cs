@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PokemonButton : MonoBehaviour
 {
-
+    public GameObject pokemonData;
     public TextMeshProUGUI pokemonName;
     public TextMeshProUGUI pTypes;
     public TextMeshProUGUI pGender;
@@ -17,6 +17,7 @@ public class PokemonButton : MonoBehaviour
     public TextMeshProUGUI pSpeed;
     public void SetPokemonData(Pokemon cPokemon)
     {
+        pokemonData.SetActive(true);
         pokemonName.text = "Name:  " + cPokemon.name;
         pTypes.text = "Types:  " + cPokemon.types.ToString() + ", " + cPokemon.types2.ToString();
         pGender.text = "Gender:  " + cPokemon.gender.ToString();
