@@ -1191,7 +1191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1669335375
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1387,37 +1387,23 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2128548834}
-  - component: {fileID: 2128548833}
+  - component: {fileID: 2128548844}
+  - component: {fileID: 2128548843}
+  - component: {fileID: 2128548842}
+  - component: {fileID: 2128548841}
+  - component: {fileID: 2128548840}
+  - component: {fileID: 2128548839}
+  - component: {fileID: 2128548838}
+  - component: {fileID: 2128548837}
+  - component: {fileID: 2128548836}
+  - component: {fileID: 2128548835}
   m_Layer: 0
-  m_Name: PokemonLists
+  m_Name: PokemonData
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2128548833
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2128548832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 392182037b8648343afbeaf1aac32281, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pokemons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &2128548834
 Transform:
   m_ObjectHideFlags: 0
@@ -1433,6 +1419,236 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2128548835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8223929e958b7f498e67c232c42839b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+--- !u!114 &2128548836
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d64e5040eeed1149afde4db607a992a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+--- !u!114 &2128548837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 681545f1c529e7e489e3149396935ac4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+--- !u!114 &2128548838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9254cedc2755018438b6d22d0e0949c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+--- !u!114 &2128548839
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0df95ad6b81e2be4196081c4e606af26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+--- !u!114 &2128548840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430c3884ca5fead418f5aeddff43a2c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+--- !u!114 &2128548841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76e159e583e9005479b0ef77e4b07f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+--- !u!114 &2128548842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce363c4484151864ab42fe2e55b89efd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+--- !u!114 &2128548843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952262fc855d09b44afe422317a4025d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
+--- !u!114 &2128548844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128548832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51192e0bc42d86a4fa106a854e182e61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pokemonName: 
+  types: 0
+  types2: 0
+  gender: 0
+  stats:
+    hp: 0
+    atk: 0
+    spatk: 0
+    def: 0
+    spdef: 0
+    speed: 0
 --- !u!1001 &461175957075250121
 PrefabInstance:
   m_ObjectHideFlags: 0
